@@ -1,0 +1,16 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Chris DeLuca -- Developer/Writer -- @chrisjohndeluca
+
+# THANKS
+
+    Bad Taste
+    Arguments
+    Dick Cheney
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
