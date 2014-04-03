@@ -1,7 +1,8 @@
 window.onload = function() {
   'use strict';
 
-  var insultButton = document.getElementById('insultButton');
+  var insultButton = document.getElementById('insultButton'),
+  insultString;
 
   // Returns a random number between min and max
   function getRandomArbitrary(min, max) {
@@ -249,8 +250,16 @@ window.onload = function() {
     }
 
     insult.innerHTML = capitaliseFirstLetter(insultString);
+
+    return insultString;
   }
-  generateInsult();
+  insultString = generateInsult();
+
+  // share button
+  // via https://github.com/carrot/share-button
+  new Share('.share-button', {
+    text: insultString,
+  });
 
   insultButton.addEventListener('click', generateInsult, false);
 };
