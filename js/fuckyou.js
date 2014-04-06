@@ -52,7 +52,6 @@ window.onload = function() {
       'chicken',
       'rectum',
       'cock',
-      'chin',
       'fart',
       'pipe',
       'wax',
@@ -127,6 +126,7 @@ window.onload = function() {
       'bloat',
       'monkey',
       'laser',
+      'swamp',
     ],
 
     ings = [
@@ -157,7 +157,6 @@ window.onload = function() {
       'eating',
       'chewing',
       'smelling',
-      'listening',
       'squirting',
       'blaming',
       'stealing',
@@ -174,7 +173,6 @@ window.onload = function() {
       'placing',
       'pulling',
       'yanking',
-      'yoinking',
       'pushing',
       'carrying',
       'lifting',

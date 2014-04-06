@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <defs>
+    <linearGradient y2="1.75" y1="0.18" x2="2.17" x1="0.08" id="rect4692_1_">
+      <stop stop-color="#afafaf" offset="0"/>
+      <stop stop-color="#fff" offset="1"/>
+    </linearGradient>
+    <linearGradient y2="2.26" y1="0.08" x2="2.32" x1="0.07" id="rect4694_1_">
+      <stop stop-color="#afafaf" offset="0"/>
+      <stop stop-color="#fff" offset="1"/>
+    </linearGradient>
+    <linearGradient y2="-96.78" y1="-96.78" x2="2.72" x1="-0.04" id="rect4698_1_">
+      <stop stop-color="#8b8b8b" offset="0"/>
+      <stop stop-color="#cec5c5" offset="1"/>
+    </linearGradient>
+    <linearGradient y2="-43.14" y1="-43.14" x1="-Infinity" x2="-Infinity" id="path4700_1_">
+      <stop stop-color="#c93937" offset="0"/>
+      <stop stop-color="#c93937" offset="0.9"/>
+      <stop stop-color="#c93937" offset="1"/>
+    </linearGradient>
+    <linearGradient y2="-43.54" y1="-43.54" x1="-Infinity" x2="-Infinity" id="path4704_1_">
+      <stop stop-color="#010101" offset="0"/>
+      <stop stop-color="#010101" offset="1"/>
+    </linearGradient>
+  </defs>
+  <title>
+    Layer 1
+  </title>
+  <g id="svg_1" transform="matrix(2.56,0,0,2.56,-617.25821,-556.06125)">
+    <path id="svg_2" stroke="#010101" fill="url(#rect4692_1_)" d="m248.75 233.99l8.84 0 0 6.4 -8.84 0 0-6.4z"/>
+    <path id="svg_3" stroke="#010101" fill="url(#rect4694_1_)" d="m246.67 225.96l13 0 0 8.4 -13 0 0-8.4z"/>
+    <path id="svg_4" stroke="#010101" fill="#fff" d="m249.89 221.71l6.57 0 0 5.38 -6.57 0 0-5.37z"/>
+    <path id="svg_5" stroke="#010101" fill="url(#rect4698_1_)" d="m246.76 239.24l12.83 0 0 2.47 -12.83 0 0-2.47z"/>
+    <path id="svg_6" stroke="#010101" fill="url(#path4700_1_)" d="m253.17 241.57l0-5.47"/>
+    <path id="svg_7" stroke="#010101" fill="url(#path4704_1_)" d="m249.36 234.1l0-5.26"/>
+    <path id="svg_8" stroke="#010101" fill="url(#path4704_1_)" d="m256.98 234.1l0-5.26"/>
+    <path id="svg_9" stroke="#010101" fill="#37abc7" d="m261.19 238.94l-6.03-2.57 3.6-8.44 6.03 2.57 -3.6 8.44z"/>
+    <path id="svg_10" stroke="#010101" fill="#37abc7" d="m242.54 221.3l3.39 10.66 -1.07 0.34 0.72 2.26 1.07-0.34 0.32 1.01 2.02-0.64 -0.32-1.01 1.07-0.34 -0.72-2.26 -1.07 0.34 -3.39-10.66 -2.03 0.64z"/>
+  </g>
+  <text transform="rotate(-66.5574 48.625 41.7422)" xml:space="preserve" text-anchor="middle" font-family="Helvetica,Arial,Sans-serif" font-size="14" id="svg_12" y="46.56" x="44.63" stroke-width="0" stroke="#000000" fill="#000000">
+    FU
+  </text>
+</svg>
