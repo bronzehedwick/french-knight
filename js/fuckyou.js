@@ -211,6 +211,7 @@ window.onload = function() {
       'carpenter',
       'waiter',
       'chef',
+      'chief',
       'waxer',
       'fluffer',
       'placater',
