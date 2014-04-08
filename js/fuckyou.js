@@ -97,6 +97,7 @@ window.onload = function() {
       'lawn',
       'road house',
       'house party',
+      'Sasquatch',
       'white house',
       'forest',
       'under water',
@@ -252,12 +253,6 @@ window.onload = function() {
     return insultString;
   }
   insultString = generateInsult();
-
-  // share button
-  // via https://github.com/carrot/share-button
-  new Share('.share-button', {
-    text: insultString,
-  });
 
   insultButton.addEventListener('click', generateInsult, false);
 };
