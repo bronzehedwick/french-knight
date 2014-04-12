@@ -57,7 +57,6 @@ window.onload = function() {
       'lunch',
       'continent',
       'grass',
-      'squelch',
       'pants',
       'anus',
       'taint',
@@ -122,6 +121,7 @@ window.onload = function() {
     ],
 
     ings = [
+      'squelching',
       'fucking',
       'shitting',
       'farting',
