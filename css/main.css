@@ -11,6 +11,54 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'social-icons';
+  src: url('../fonts/social-icons/social-icons.eot?73973183');
+  src: url('../fonts/social-icons/social-icons.eot?73973183#iefix') format('embedded-opentype'),
+       url('../fonts/social-icons/social-icons.woff?73973183') format('woff'),
+       url('../fonts/social-icons/social-icons.ttf?73973183') format('truetype'),
+       url('../fonts/social-icons/social-icons.svg?73973183#social-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: 'social-icons';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  font-size: 140%;
+
+  position: relative;
+  top: 2px;
+}
+
+.icon-mail:before { content: '\e800'; }
+.icon-facebook:before { content: '\e805'; }
+.icon-gplus:before { content: '\e803'; }
+.icon-linkedin:before { content: '\e804'; }
+.icon-tumblr:before { content: '\e802'; }
+.icon-twitter:before { content: '\e801'; }
+
 html,
 button,
 input,
@@ -219,6 +267,34 @@ Author's custom styles
   width: 36%;
 }
 
+.social-buttons {
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-buttons li {
+  float: left;
+}
+
+.social-buttons a {
+  margin-right: 12px;
+  display: inline-block;
+  border-bottom: none;
+}
+
+.icon-mail { background-color: #999; }
+.icon-facebook { background-color: #3b5997; }
+.icon-gplus { background-color: #d64937; }
+.icon-linkedin {  background-color: #0073b2; }
+.icon-tumblr { background-color: #35465c; }
+.icon-twitter{ background-color: #41b7d8; }
+
+.icon-mail:hover { background-color: #888; }
+.icon-facebook:hover { background-color: #263960; }
+.icon-gplus:hover { background-color: #a02f21; }
+.icon-linkedin:hover { background-color: #004265; }
+.icon-tumblr:hover { background-color: #19212b; }
+.icon-twitter:hover { background-color: #238caa; }
 
 /* ==========================================================================
 Media Queries
