@@ -217,10 +217,10 @@ window.onload = function() {
     insult.innerHTML = insultString;
 
     // add the insult to social buttons.
-    twitterButton.attributes[0].value = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(insultString) + '&url=' + window.location;
-    facebookButton.attributes[0].value = 'https://www.facebook.com/sharer/sharer.php?s=100&p[title]=French+Knight&p[summary]=' + insultString.replace(' ', '+', 'g') + '&p[url]=http://hypnotictoast.com/french-knight';
-    linkedinButton.attributes[0].value = 'https://www.linkedin.com/shareArticle?url=' + window.location + '&title=French%20Knight&summary=' + encodeURIComponent(insultString) + '&source=http://hypnotictoast.com/french-knight';
-    mailButton.attributes[0].value = 'mailto:?subject=A French Knight\'s Hello&body=' + insultString + '. ' + window.location;
+    twitterButton.setAttribute('href', 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(insultString) + '&url=' + window.location);
+    facebookButton.setAttribute('href', 'https://www.facebook.com/sharer/sharer.php?s=100&p[title]=French+Knight&p[summary]=' + insultString.replace(' ', '+', 'g') + '&p[url]=http://hypnotictoast.com/french-knight');
+    linkedinButton.setAttribute('href', 'https://www.linkedin.com/shareArticle?url=' + window.location + '&title=French%20Knight&summary=' + encodeURIComponent(insultString) + '&source=http://hypnotictoast.com/french-knight');
+    mailButton.setAttribute('href', 'mailto:?subject=A French Knight\'s Hello&body=' + insultString + '. ' + window.location);
 
     return insultString;
   }
