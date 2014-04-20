@@ -26,6 +26,7 @@ window.onload = function() {
     nouns = [
       'ass',
       'fuck',
+      'weed',
       'dick',
       'vagina',
       'twat',
@@ -91,7 +92,6 @@ window.onload = function() {
       'keyboard',
       'phone',
       'internet',
-      'grab bag',
       'Santa Claus',
       'antique',
       'gravity',
@@ -102,7 +102,6 @@ window.onload = function() {
       'white house',
       'forest',
       'under water',
-      'Kim Jun Un',
       'Power Rangers',
       'Vanna White',
       'Huckleberry Fin',
@@ -120,7 +119,6 @@ window.onload = function() {
     ],
 
     ings = [
-      'squelching',
       'fucking',
       'shitting',
       'farting',
@@ -136,7 +134,6 @@ window.onload = function() {
       'barfing',
       'screwing',
       'plotting',
-      'gassing',
       'coughing',
       'staining',
       'climbing',
@@ -146,7 +143,6 @@ window.onload = function() {
       'chewing',
       'smelling',
       'squirting',
-      'blaming',
       'stealing',
       'swiping',
       'peeling',
@@ -221,10 +217,10 @@ window.onload = function() {
     insult.innerHTML = insultString;
 
     // add the insult to social buttons.
-    twitterButton.attributes[0].value = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(insultString) + '&url=http://hypnotictoast.com/french-knight';
+    twitterButton.attributes[0].value = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(insultString) + '&url=' + window.location;
     facebookButton.attributes[0].value = 'https://www.facebook.com/sharer/sharer.php?s=100&p[title]=French+Knight&p[summary]=' + insultString.replace(' ', '+', 'g') + '&p[url]=http://hypnotictoast.com/french-knight';
-    linkedinButton.attributes[0].value = 'https://www.linkedin.com/shareArticle?url=http://hypnotictoast.com/french-knight&title=French%20Knight&summary=' + encodeURIComponent(insultString) + '&source=http://hypnotictoast.com/french-knight';
-    mailButton.attributes[0].value = 'mailto:?subject=A French Knight\'s Hello&body=' + insultString + '.';
+    linkedinButton.attributes[0].value = 'https://www.linkedin.com/shareArticle?url=' + window.location + '&title=French%20Knight&summary=' + encodeURIComponent(insultString) + '&source=http://hypnotictoast.com/french-knight';
+    mailButton.attributes[0].value = 'mailto:?subject=A French Knight\'s Hello&body=' + insultString + '. ' + window.location;
 
     return insultString;
   }
