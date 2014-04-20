@@ -280,6 +280,15 @@ Author's custom styles
   margin-right: 12px;
   display: inline-block;
   border-bottom: none;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.social-buttons a {
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
 .icon-mail { background-color: #999; }

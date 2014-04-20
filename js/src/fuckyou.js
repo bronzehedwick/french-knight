@@ -16,6 +16,12 @@ window.onload = function() {
 
   function generateInsult() {
     var insult = document.getElementById('insult'),
+    twitterButton = document.getElementById('icon-twitter'),
+    facebookButton = document.getElementById('icon-facebook'),
+    gplusButton = document.getElementById('icon-gplus'),
+    linkedinButton = document.getElementById('icon-linkedin'),
+    tumblrButton = document.getElementById('icon-tumblr'),
+    mailButton = document.getElementById('icon-mail'),
 
     nouns = [
       'ass',
@@ -98,16 +104,9 @@ window.onload = function() {
       'under water',
       'Kim Jun Un',
       'Power Rangers',
-      'Batman',
-      'Pink Panther',
-      'Looney Tunes',
-      'Robin Williams',
       'Vanna White',
       'Huckleberry Fin',
-      'Bob Dylan',
-      'Sherlock Holmes',
       'Barbara Walters',
-      'Peter O\'Toole',
       'Mole People',
       'Hobbit',
       'zeitgeist',
@@ -217,7 +216,15 @@ window.onload = function() {
       insultString = insultee + ', you\'re a ' + insultString;
     }
 
-    insult.innerHTML = capitaliseFirstLetter(insultString);
+    // we have an insult!
+    insultString = capitaliseFirstLetter(insultString);
+    insult.innerHTML = insultString;
+
+    // add the insult to social buttons.
+    twitterButton.attributes[0].value = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(insultString) + '&url=http://hypnotictoast.com/french-knight';
+    facebookButton.attributes[0].value = 'https://www.facebook.com/sharer/sharer.php?s=100&p[title]=French+Knight&p[summary]=' + insultString.replace(' ', '+', 'g') + '&p[url]=http://hypnotictoast.com/french-knight';
+    linkedinButton.attributes[0].value = 'https://www.linkedin.com/shareArticle?url=http://hypnotictoast.com/french-knight&title=French%20Knight&summary=' + encodeURIComponent(insultString) + '&source=http://hypnotictoast.com/french-knight';
+    mailButton.attributes[0].value = 'mailto:?subject=A French Knight\'s Hello&body=' + insultString + '.';
 
     return insultString;
   }
@@ -225,3 +232,4 @@ window.onload = function() {
 
   insultButton.addEventListener('click', generateInsult, false);
 };
+
