@@ -4,7 +4,7 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
 var paths = {
-  scripts: 'js/src/*js',
+  scripts: 'public/js/src/*js',
 };
 
 gulp.task('scripts', function() {
@@ -13,7 +13,7 @@ gulp.task('scripts', function() {
   return gulp.src(paths.scripts)
     .pipe(uglify())
     .pipe(concat('all.min.js'))
-    .pipe(gulp.dest('js/build'));
+    .pipe(gulp.dest('public/js/build'));
 });
 
 // Rerun the task when a file changes
