@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "express": ">=4.x",
-    "hbs": "*",
     "gulp": ">=3.x",
     "gulp-changed": ">=0.3",
     "gulp-concat": ">=2.x",
