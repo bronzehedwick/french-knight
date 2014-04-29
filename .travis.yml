@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+- '0.8'
+- '0.6'
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ga8ISTdDpgD3zT4lNrHSMYtlRulaIkU8K1jd/TKaeQ24SP3sqNTyPqtza7U9wybPC3OVNLQ5qqFm47v6LkTz0S+JzvJoT1y5KnfLCgxrc+FithpVbwsS0CDq4htkWwSBCVhIJ4oDzKyb3i2mqsjXa3PW261/jSiYL0ICLZHUgW0=
+  app: still-harbor-7400
+  on:
+    repo: bronzehedwick/french-knight
