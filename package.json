@@ -1,0 +1,27 @@
+{
+  "name": "french-knight",
+  "version": "0.1.2",
+  "author": "Chris DeLuca <bronzehedwick@gmail.com>",
+  "description": "An elegant insult generator to offend and delight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bronzehedwick/french-knight.git"
+  },
+  "dependencies": {
+    "express": ">=4.x",
+    "hbs": "*",
+    "gulp": ">=3.x",
+    "gulp-changed": ">=0.3",
+    "gulp-concat": ">=2.x",
+    "gulp-uglify": ">=0.2"
+  },
+  "keywords": [
+    "fun",
+    "insults",
+    "comedy"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
