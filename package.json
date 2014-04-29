@@ -20,6 +20,9 @@
     "comedy"
   ],
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bronzehedwick/french-knight/issues"
+  },
   "engines": {
     "node": ">=0.10"
   }
