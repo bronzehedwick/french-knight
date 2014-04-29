@@ -130,6 +130,7 @@ window.onload = function() {
       'juicing',
       'plumbing',
       'belching',
+      'stroking',
       'burping',
       'barfing',
       'screwing',
