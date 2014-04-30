@@ -26,6 +26,7 @@ window.onload = function() {
     nouns = [
       'ass',
       'fuck',
+      'duck',
       'weed',
       'dick',
       'vagina',
