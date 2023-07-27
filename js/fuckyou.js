@@ -16,12 +16,6 @@ window.onload = function() {
 
   function generateInsult() {
     var insult = document.getElementById('insult'),
-    twitterButton = document.getElementById('icon-twitter'),
-    facebookButton = document.getElementById('icon-facebook'),
-    gplusButton = document.getElementById('icon-gplus'),
-    linkedinButton = document.getElementById('icon-linkedin'),
-    tumblrButton = document.getElementById('icon-tumblr'),
-    mailButton = document.getElementById('icon-mail'),
 
     nouns = [
       'ass',
@@ -218,16 +212,9 @@ window.onload = function() {
     insultString = capitaliseFirstLetter(insultString);
     insult.innerHTML = insultString;
 
-    // add the insult to social buttons.
-    twitterButton.setAttribute('href', 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(insultString) + '&url=' + window.location);
-    facebookButton.setAttribute('href', 'https://www.facebook.com/dialog/feed?app_id=502100919911798&display=popup&caption=' + encodeURIComponent(insultString) + '&link=' + window.location + '&redirect_uri=' + window.location + '&caption=' + encodeURIComponent(insultString));
-    linkedinButton.setAttribute('href', 'https://www.linkedin.com/shareArticle?url=' + window.location + '&title=French%20Knight&summary=' + encodeURIComponent(insultString) + '&source=http://hypnotictoast.com/french-knight');
-    mailButton.setAttribute('href', 'mailto:?subject=A French Knight\'s Hello&body=' + insultString + '. ' + window.location);
-
     return insultString;
   }
   insultString = generateInsult();
 
   insultButton.addEventListener('click', generateInsult, false);
 };
-
